@@ -1,0 +1,29 @@
+{
+  "title":			"apps_marketing_recover_cart",
+  "type":           "apps",
+  "vendor":			"Marketing",
+  "is_free":   "no",
+  "is_core": "no",
+  "website_link_to_sell" : "",
+  "version":			1.0,
+  "req_core_version":	3.0,
+  "license":			"GPL 2 - MIT",
+  "tag":			    "products, recover, cart, marketing",
+  "install":            "includes/ClicShopping/Apps/Marketing/",
+  "module_directory":   "Marketing",
+  "apps_name":          "RecoverCart",
+  "type_module":      "Fixe",
+  "dependance":       "",
+  "description":      "This apps allow you know the products abandonned by your customer in the shopping cart and to contact them",
+  "image":            "https://github.com/ClicShoppingOfficialModulesV3/apps_recover_cart/blob/master/ModuleInfosJson/recovercart.png",
+
+  "authors": [
+    {
+      "name":		    "ClicShopping Team",
+      "company":	    "Innov-concept",
+      "email":	      "",
+      "website":	    "http://www.clicshopping.com",
+      "Community":	  "http://www.clicshopping.org"
+    }
+  ]
+}
