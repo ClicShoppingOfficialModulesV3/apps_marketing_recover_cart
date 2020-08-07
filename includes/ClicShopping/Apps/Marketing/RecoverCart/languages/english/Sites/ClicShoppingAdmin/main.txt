@@ -1,0 +1,58 @@
+heading_title = Recover cart
+module_rc_title = Recover cart
+module_rc_short_title = Recover cart
+
+recover_cart =  Recover cart
+text_configure = Configure App Module
+
+text_products_recover_cart = Recover cart
+
+text_intro = This app allow you to include a recover_cart pages and a shortcut. <br /><br />
+
+module_rc_introduction = The install process create the database settings for this module and the access menu
+
+button_back = Back
+button_install_title = Install
+button_configure = Configure
+button_save = Save
+button_dialog_uninstall =  Uninstall
+button_uninstall =  Uninstall
+button_delete = Delete
+button_delete_all = Delete All
+button_recover_cart = recover_cart
+button_cancel = Cancel
+button_new = New
+button_insert = Insert
+button_reset = Reset
+button_update = Update
+
+dialog_uninstall_title = Uninstall
+dialog_uninstall_body = Do you want to install this App ?
+dialog_uninstall_title = Uninstall Module?
+dialog_uninstall_body = Are you sure you want to uninstall this module?
+
+alert_module_install_success = Module has been successfully installed.
+alert_module_uninstall_success = Module has been successfully uninstalled.
+alert_cfg_saved_success = Configuration parameters have been successfully saved.
+
+text_last_days = Show the x last days
+
+table_heading_date = Date
+table_heading_customer = Customers
+table_heading_email = E-mail
+table_heading_phone = Phone
+table_heading_model = Model
+table_heading_description = Description
+table_heading_quantity = Qty
+table_heading_price = Price
+table_heading_total = Total
+total_grand_total = Total
+text_total_basket_cart = Total basket
+text_action = Action
+
+text_message = Hello Mr, Mrs {{name}},<br><br>
+We allow ourselves to contact you because we have identified that you have not completed your order.<br>
+We would like to know if you had any dissatisfaction during the ordering process.<br>
+Thank you for your understanding.<br>
+The {{store_name}} team<br>
+Website : <a href="{{url}}"{{url}}</a><br>

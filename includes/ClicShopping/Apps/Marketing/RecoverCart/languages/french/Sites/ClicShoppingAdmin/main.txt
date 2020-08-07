@@ -1,0 +1,58 @@
+heading_title = Panier abandonné
+module_rc_title = Panier abandonné
+module_rc_short_title = Panier abandonné
+
+recover_cart =  Panier abandonné
+text_configure =  Configurer App Module
+
+text_products_recover_cart = Panier abandonné
+text_intro = Cette app inclut la page panier abandonné. <br /><br />
+
+module_rc_introduction = Le processus d'installation installe la base de données et le menu
+module_rc_short_title = recover_cart
+
+button_install_title = Installer
+button_configure = Configurer
+button_save = Sauver
+button_dialog_uninstall =  Désinstaller
+button_uninstall =  Désinstaller
+button_delete = Supprimer
+button_delete_all = Tout supprimer
+button_recover_cart = Panier abandonné
+button_cancel = Annuler
+button_new = Nouveau
+button_insert =  Insérer
+button_back = Retour
+button_reset = Réinitialiser
+button_update = Mettre à jour
+
+dialog_uninstall_title = Désinstaller
+dialog_uninstall_body = Souhaitez-vous installer cette App ?
+dialog_uninstall_title = Désinstaller le module?
+dialog_uninstall_body = Etes vous sur de désinstaller ce module?
+
+alert_module_install_success = Le module a été installée.
+alert_module_uninstall_success = Le module a été désinstallée.
+alert_cfg_saved_success = les paramètres de configuration ont été mises à jour.
+
+text_last_days = Montrer pour les x dernier jours
+
+table_heading_date = Date
+table_heading_customer = Client
+table_heading_email = E-mail
+table_heading_phone = Téléphone
+table_heading_model = Référence
+table_heading_description = Description
+table_heading_quantity = Qté
+table_heading_price = Prix
+table_heading_total = Total
+total_grand_total = Total
+text_total_basket_cart = Total panier
+text_action = Action
+
+text_message = Bonjour Mr, Mme {{name}},<br><br>
+Nous nous permettons de vous contacter car nous avons identifier que vous n'avez pas terminer votre commande.<br>
+Nous souhaiterions connaître si vous avez eu une insatisfaction lors du processus de commande.<br>
+Nous vous remercions de votre compréhension.<br>
+L'équipe {{store_name}}<br>
+Website : <a href="{{url}}"{{url}}</a><br>
