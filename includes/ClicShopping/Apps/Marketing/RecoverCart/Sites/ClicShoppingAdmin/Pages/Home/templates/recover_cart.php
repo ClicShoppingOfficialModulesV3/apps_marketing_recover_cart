@@ -41,7 +41,7 @@
           <span
             class="col-md-1 logoHeading"><?php echo HTML::image($CLICSHOPPING_Template->getImageDirectory() . 'categories/recover_cart.png', $CLICSHOPPING_RecoverCart->getDef('heading_title'), '40', '40'); ?></span>
           <span class="col-md-4 pageHeading"><?php echo $CLICSHOPPING_RecoverCart->getDef('heading_title'); ?></span>
-          <span class="col-md-2 text-md-right">
+          <span class="col-md-2 text-end">
             <div class="row">
 <?php
   echo HTML::form('recover', $CLICSHOPPING_RecoverCart->link('RecoverCart'));
@@ -53,7 +53,7 @@
           <span
             class="col-md-2"><?php echo HTML::button($CLICSHOPPING_RecoverCart->getDef('button_update'), null, null, 'success'); ?></span>
           <span
-            class="col-md-2 text-md-right"><?php echo HTML::button($CLICSHOPPING_RecoverCart->getDef('button_reset'), null, $CLICSHOPPING_RecoverCart->link('RecoverCart'), 'warning'); ?></span>
+            class="col-md-2 text-end"><?php echo HTML::button($CLICSHOPPING_RecoverCart->getDef('button_reset'), null, $CLICSHOPPING_RecoverCart->link('RecoverCart'), 'warning'); ?></span>
         </div>
       </div>
     </div>
@@ -73,10 +73,10 @@
     <tr class="dataTableHeadingRow">
       <td><?php echo $CLICSHOPPING_RecoverCart->getDef('table_heading_model') ?></td>
       <td><?php echo $CLICSHOPPING_RecoverCart->getDef('table_heading_description'); ?></td>
-      <td class="text-md-right"><?php echo $CLICSHOPPING_RecoverCart->getDef('table_heading_quantity'); ?></td>
-      <td class="text-md-right"><?php echo $CLICSHOPPING_RecoverCart->getDef('table_heading_price'); ?></td>
-      <td class="text-md-right"><?php echo $CLICSHOPPING_RecoverCart->getDef('table_heading_total'); ?></td>
-      <td class="text-md-right"><?php echo $CLICSHOPPING_RecoverCart->getDef('text_action'); ?></td>
+      <td class="text-end"><?php echo $CLICSHOPPING_RecoverCart->getDef('table_heading_quantity'); ?></td>
+      <td class="text-end"><?php echo $CLICSHOPPING_RecoverCart->getDef('table_heading_price'); ?></td>
+      <td class="text-end"><?php echo $CLICSHOPPING_RecoverCart->getDef('table_heading_total'); ?></td>
+      <td class="text-end"><?php echo $CLICSHOPPING_RecoverCart->getDef('text_action'); ?></td>
     </tr>
     </thead>
     <tbody>
@@ -124,7 +124,7 @@
             <td colspan="5">
               <strong><?php echo $CLICSHOPPING_RecoverCart->getDef('text_total_basket_cart'); ?></strong><?php echo $tcart_formated; ?>
             </td>
-            <td class="text-md-right">
+            <td class="text-end">
               <?php
                 echo HTML::form('DeleteAll', $CLICSHOPPING_RecoverCart->link('RecoverCart&RecoverCart&Delete'));
                 echo HTML::button($CLICSHOPPING_RecoverCart->getDef('button_delete_all'), null, null, 'danger', null, 'sm');
@@ -180,9 +180,9 @@
             <td><?php echo $QProducts->value('model'); ?></td>
             <td><?php echo $QProducts->value('products_name'); ?></a>
             </td>
-            <td class="text-md-right"><?php echo $Qbasket->valueInt('qty'); ?></td>
-            <td class="text-md-right"><?php echo $pprice_formated; ?></td>
-            <td class="text-md-right"><?php echo $tpprice_formated; ?></td>
+            <td class="text-end"><?php echo $Qbasket->valueInt('qty'); ?></td>
+            <td class="text-end"><?php echo $pprice_formated; ?></td>
+            <td class="text-end"><?php echo $tpprice_formated; ?></td>
             <td></td>
           </tr>
           <?php
@@ -194,10 +194,10 @@
         $tcart_formated = $CLICSHOPPING_Currencies->format($tprice);
         ?>
         <tr>
-          <td class="text-md-right" colspan="5">
+          <td class="text-end" colspan="5">
             <strong><?php echo $CLICSHOPPING_RecoverCart->getDef('text_total_basket_cart') . '</strong>' . $tcart_formated; ?>
           </td>
-          <td class="text-md-right">
+          <td class="text-end">
             <?php
               echo HTML::form('Delete', $CLICSHOPPING_RecoverCart->link('RecoverCart&RecoverCart&Delete&customer_id=' . $curcus . '&tdate=' . $tdate));
               echo HTML::button($CLICSHOPPING_RecoverCart->getDef('button_delete'), null, null, 'danger', null, 'sm');
@@ -211,7 +211,7 @@
       $totalAll_formated = $CLICSHOPPING_Currencies->format($totalAll);
     ?>
     <tr>
-      <td class="text-md-right" colspan="5">
+      <td class="text-end" colspan="5">
         <strong><?php echo $CLICSHOPPING_RecoverCart->getDef('total_grand_total'); ?></strong><?php echo $totalAll_formated; ?>
       </td>
     </tr>

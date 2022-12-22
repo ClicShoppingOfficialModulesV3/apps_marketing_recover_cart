@@ -52,7 +52,7 @@
         <div class="separator"></div
         <div class="col-md-12">
           <div class="form-group">
-            <div class="col-md-12 text-md-center">
+            <div class="col-md-12 text-center">
               <?php
                 echo HTML::form('configure', CLICSHOPPING::link(null, 'A&Marketing\RecoverCart&Configure'));
                 echo HTML::button($CLICSHOPPING_RecoverCart->getDef('button_configure'), null, null, 'primary');
