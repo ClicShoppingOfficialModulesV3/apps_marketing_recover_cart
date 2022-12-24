@@ -51,7 +51,7 @@ text_total_basket_cart = Total panier
 text_action = Action
 
 text_message = Bonjour Mr, Mme {{name}},<br><br>
-Nous nous permettons de vous contacter car nous avons identifier que vous n'avez pas terminer votre commande.<br>
+Nous nous permettons de vous contacter car nous avons identifié que vous n'avez pas terminé votre commande.<br>
 Nous souhaiterions connaître si vous avez eu une insatisfaction lors du processus de commande.<br>
 Nous vous remercions de votre compréhension.<br>
 L'équipe {{store_name}}<br>
